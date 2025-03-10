@@ -20,7 +20,10 @@ In the Python 3 Shell
 > net.SGD(training_data, 30, 10, 3.0, test_data=test_data)
 ```
 1. create a neural network of input layer for 784 (28 x 28 image size) pixels, two hidden layers of 16 nodes, and an output layer of 10 corresponding to digit (0 - 9)
-2. use
+2. use stochastic gradient descent to learn from the training data
+    - over 30 epochs, test_data is provided so after each epoch the network will be tested
+    - mini-batch size of 10
+    - a learning rate of 3.0
 
 ## License
 MIT License
